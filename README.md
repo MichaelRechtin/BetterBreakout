@@ -4,47 +4,10 @@ The **BetterBreakout Board** is a prototyping and breakout solution designed to 
 
 ---
 
-## 📐 Mechanical Drawings
-
-The following image shows the overall dimensions and mounting hole locations for both the **BetterBreakout** and **BetterBreakout MINI** boards.
-
-![BetterBreakout Mechanical Drawings](Amazon_Pictures1_75.jpg)
-
-**Notes:**
-- All dimensions are in millimeters
-- Mounting holes are Ø3 mm
-- Corner radius: R2.54 mm
-- MINI version maintains the same layout philosophy at a reduced footprint
-
----
-
-## 🔌 Wiring Suggestions
+# 🔌 Wiring Suggestions
 
 The diagram below illustrates recommended wiring practices and explains the onboard power and ground distribution.
-
-![BetterBreakout Wiring Suggestions](Wiring_Suggestions.png)
-
-### VIN Pads (**IMPORTANT**)
-- Connected directly to the VIN terminal block through the PCB
-- Intended for input voltages **greater than 5V**
-- Use an external voltage regulator to step down to 5V if required
-- Regulated 5V can then be fed into the 5V pads to power the microcontroller
-
-### 5V Pads
-- Automatically connected to the microcontroller’s VIN / 5V pins
-- Can be used to distribute regulated 5V across the board
-
-### 3.3V Pads
-- Automatically connected to the microcontroller’s 3.3V pins
-- Suitable for sensors and peripherals requiring 3.3V logic
-
-### Ground Pads
-- Connected directly to the microcontroller GND pins
-- Multiple ground points provided for convenient wiring
-
-### Other IO Terminal Blocks / JST Connectors
-- **Not connected by default**
-- Intended for user-defined wiring depending on project needs
+<img width="1912" height="1068" alt="Wiring_Suggestions" src="https://github.com/user-attachments/assets/0cbbc32a-cb8e-4840-b21a-c3ea430e556d" />
 
 > Wiring is identical between the standard BetterBreakout and the MINI version unless otherwise noted.
 
@@ -55,6 +18,18 @@ The diagram below illustrates recommended wiring practices and explains the onbo
 CAD models are available for enclosure design, integration, and modification:
 
 👉 https://cad.onshape.com/documents/641fb402b50249ed35852e66/w/ed6f31275fe70e4d50fd9af3/e/aa7b3e3c1d21e0f3346701bb
+
+---
+
+## 📐 Mechanical Drawings
+
+The following image shows the overall dimensions and mounting hole locations for both the **BetterBreakout** and **BetterBreakout MINI** boards.
+![Amazon_Pictures1_75](https://github.com/user-attachments/assets/4b610b5d-c73b-4fd3-b88b-3bda25c150a2)
+
+**Notes:**
+- All dimensions are in millimeters
+- Mounting holes are Ø3 mm
+- Corner radius: R2.54 mm
 
 ---
 
